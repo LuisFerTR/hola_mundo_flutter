@@ -13,9 +13,11 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.indigo,
         body: Center(
             child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [Text('Hola Mundo'), Text('0')],
+          children: const [
+            Text('Hola Mundo'),
+            Text('0')
+          ],
         )));
   }
 }
